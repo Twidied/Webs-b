@@ -1,0 +1,66 @@
+:root {
+    --text-title-color: #252525;
+    --text-color: #515151;
+    --color-button: #FFFFFF;
+    --background-color: #252525;
+}
+
+body {
+    overflow: hidden;
+}
+
+* {
+    margin: 5px;
+    padding: 7px;
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: "Open Sans", sans-serif;
+}
+
+
+.title h1 {
+    color: var(--text-title-color);
+    font-size: 300%;
+    margin-left: 32px;
+}
+
+.title p {
+    color: var(--text-color);
+    position: absolute;
+    top: 7%;
+    right: 15%;
+}
+
+.photo img {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    display: block;
+    border: none;
+}
+
+.button a {
+    background-color: var(--background-color);
+    color: var(--color-button);
+    font-family: "Open Sans", sans-serif;
+    padding: 5px 20px;
+    border-radius: 9px;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 2px;
+    font-size: 80%;
+    position: absolute;
+    font-size: 60%;
+    top: 22%;
+    right: 31.2%;
+}
+
+.button a:hover {
+    background-color: #444;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}

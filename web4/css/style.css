@@ -1,0 +1,70 @@
+:root {
+    --text-title-color: #252525;
+    --text-color: #515151;
+    --color-button: #FFFFFF;
+    --background-color: #252525;
+    --color-h3: #878787;
+}
+
+body {
+    overflow: hidden;
+}
+
+.container {
+    font-family: "Open Sans", sans-serif;
+    position: absolute;
+    top: 5%;
+    right: 23%;
+}
+
+.texts {
+    font-family: "Open Sans", sans-serif;
+    color: var(--text-color);
+    position: absolute;
+    top: 50%;
+    right: 20%;
+}
+
+.texts h3 {
+    color: var(--color-h3);
+}
+
+.title h1 {
+    color: var(--text-title-color);
+}
+
+.title p {
+    color: var(--text-color);
+}
+
+.photo img {
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 500px;
+    height: 550px;
+}
+
+.button a {
+    background-color: var(--background-color);
+    color: var(--color-button);
+    font-family: "Open Sans", sans-serif;
+    padding: 5px 20px;
+    border-radius: 7px;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 80%;
+    position: absolute;
+    font-size: 60%;
+    top: 100%;
+    right: 75%;
+}
+
+.button a:hover {
+    background-color: #444;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
