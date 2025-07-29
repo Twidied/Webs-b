@@ -1,0 +1,55 @@
+:root {
+    --color-title: #FFFFFF;
+    --color-p: #FFFFFF;
+    --background-color: #E5B94B;
+    --color-button:#080808;
+}
+
+body {
+    background-color: #AB2706;
+    font-family: "Open Sans", sans-serif;
+    overflow-x: hidden;
+}
+.container {
+    position: fixed;
+    margin-left: 800px;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+.container h1 {
+    color: var(--color-title);
+    font-size: 3.1rem;
+}
+
+.container p {
+    color: var(--color-p);
+    font-weight: 200;
+}
+
+.imagen img {
+    position: fixed;
+    bottom: 0;
+    left: 20px;
+    width: 430px;
+    height: auto;
+    margin-left: 40px;
+}
+
+
+.button a {
+    background-color: var(--background-color);
+    color: var(--color-button);
+    border: none;
+    padding: 10px 27px;
+    border-radius: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1rem;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.button a:hover {
+    background-color: #bf993b;
+}

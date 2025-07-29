@@ -1,0 +1,38 @@
+:root {
+    --text-title-color: #252525;
+    --text-color: #515151;
+    --color-h3: #878787;
+}
+
+body {
+    overflow: hidden;
+    font-family: "Open Sans", sans-serif;
+}
+
+.title h1 {
+    color: var(--text-title-color);
+    font-size: 3rem;
+    margin-left: 5%;
+}
+
+.tocuadros p {
+    color: var(--text-color);
+}
+
+.tocuadros {
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+    padding-left: 100px;
+    padding-right: 55px;
+}
+
+.tocuadros img {
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+}
+
+.tocuadros h3 {
+    color: var(--color-h3);
+}

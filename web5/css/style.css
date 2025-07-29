@@ -1,8 +1,6 @@
 :root {
     --text-title-color: #252525;
     --text-color: #515151;
-    --color-button: #FFFFFF;
-    --background-color: #252525;
     --color-h3: #878787;
 }
 
@@ -19,10 +17,10 @@ body {
 }
 
 .title {
-    font-family: "Open Sans", sans-serif;
     color: var(--text-title-color);
+    font-family: "Open Sans", sans-serif;
     font-size: 1.5rem;
-
+    margin-left: 59px;
 }
 
 .container h3 {
@@ -31,12 +29,11 @@ body {
 
 .container .uno, .dos, .tres {
     margin-right: 50px;
-    font-size: 0,2em;
     padding: 4 10px;
     gap: 10px;
+    color: var(--color-h3);
 }
 .container img {
-
     top: 1010%;
     width: 310px;
     height: 230px;
@@ -45,5 +42,5 @@ body {
 
 .container p {
     font-size: 0.8rem;
-
+    color: var(--text-color);
 }
