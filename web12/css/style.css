@@ -1,0 +1,124 @@
+:root {
+    --colot-title: #252525;
+    --color-text: #515151;
+    --background-color: #252525;
+    --color-button: #FFFFFF;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    margin-left: 9rem;
+    overflow-x: hidden;
+}
+
+.container h1 {
+    color: var(--colot-title);
+    font-size: 2.8rem;
+    margin-bottom: 0px;
+}
+
+.container p {
+    color: var(--color-text);
+    margin-bottom: 30px;
+    margin-left: 1px;
+}
+
+.button a {
+    background: var(--background-color);
+    color: var(--color-button);
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.button a:hover {
+    background-color: #444;
+    transform: scale(1.05);
+}
+
+
+.photo1 img {
+    position: absolute;
+    bottom: 29rem;
+    left: 29rem;
+    width: 260px;
+    height: em;  
+}
+
+.photo2 img {
+    position: absolute;
+    bottom: 0.6rem;
+    width: 100px;
+    height: 13rem; 
+    left: 17rem;
+}
+
+.photo3 img {
+    position: absolute;
+    bottom: 9rem;
+    left: 62.3rem;
+    width: 200px;
+    height: 8rem; 
+}
+
+.photo4 img {
+    position: absolute;
+    top: 10rem;
+    width: 10rem;
+    height: 15rem;
+    left: 42rem;
+    z-index: 2;
+}
+
+.uno img {
+    position: absolute;
+    top: 30px;
+    right: 153px;
+    width: 13rem;
+    height: 17rem; 
+    border-radius: 15px;
+}
+
+.dos img {
+    position: absolute;
+    top: 9rem;
+    right: 10px;
+    width: 13rem;
+    height: 17rem;
+    left: 47rem;
+    border-radius: 15px;
+}
+
+.tres img {
+    position: absolute;
+    bottom: 2rem;
+    width: 13rem;
+    height: 17rem;
+    left: 32rem;
+    border-radius: 15px;
+}
+
+
+.men img {
+    position: absolute;
+    top: 29rem;
+    width: 6rem;
+    height: 6rem; 
+    border-radius: 50px;
+    left: 47rem;
+    color: var(--color-text);
+}
+
+.men p {
+    position: absolute;
+    font-size: 0,1px;
+    top: 29.4rem;
+    width: 100rem;
+    height: 6rem; 
+    border-radius: 50px;
+    left: 53rem;
+    font-size: 12px !important;
+}

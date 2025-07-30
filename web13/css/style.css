@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background: linear-gradient(135deg, #ffffff, #e7f0ff, #ffe3fc);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    overflow: hidden;
+
+}
+
+
+.container {
+    display: flex;
+    gap: 40px;
+    max-width: 800px;
+    align-items: flex-start;
+}
+
+.left-box,
+.right-box {
+    flex: 1;
+    position: relative;
+    width: 800px;
+    min-width: 300px;
+}
+
+.center-box {
+    text-align: center;
+    position: relative;
+    flex: 1;
+    margin-top: -80px; 
+}
+
+.number {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.text {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #333;
+    max-width: 250px;
+}
+
+/* Solo mover el número y texto del lado derecho */
+.right-box .number {
+    position: relative;
+    top: -40px;
+}
+
+.right-box .text {
+    position: relative;
+    top: -40px;
+}
+
+.description {
+    font-size: 14px;
+    color: #333;
+    margin: 20px auto;
+    max-width: 300px;
+}
+
+h1 {
+    margin-bottom: -1%;
+    font-size: 80px;
+    font-weight: 300;
+    color: #111;
+    line-height: 1.1;
+
+}
+
+button {
+    background: #111;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.image-wrapper {
+    width: 250px;
+    height: 330px;
+    border-radius: 30% 30% 0 0;
+    overflow: hidden;
+}
+
+.yellow-bg {
+    background-color: hsl(37, 62%, 62%);
+    margin-top: 150px;
+}
+
+.blue-bg {
+    background-color: #b3cde4;
+    margin-bottom: 10px;
+    height: 300px;
+}
+
+.profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+.icon {
+    position: absolute;
+    width: 60px;
+}
+
+.icon-blue {
+    top: 110px;
+    left: 40px;
+    width: 100px;
+}
+
+.icon-gold {
+    bottom: 120px;
+    right: 10px;
+    width: 120px;
+    left: 70px;
+}
+
+.line-decor {
+    position: relative;
+    width: 171px;
+    height: 242px;
+    right: 190px;
+    top: 180px;
+}
+
+.small-line {
+    bottom: 120px;
+    position: relative;
+    top: -90px;
+    width: 130px;
+    left: -50px;
+}
+.fondo{
+    width: 280px;
+    height: 460px;
+    text-align: right;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    right: 480px;
+    border-radius: 20px;
+    opacity: 0.8;
+  
+}
